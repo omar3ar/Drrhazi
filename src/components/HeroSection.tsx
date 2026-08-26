@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src="/images/gimini2.mp4" type="video/mp4" />
+          <source src="/images/gimini.mp4" type="video/mp4" />
           Votre navigateur ne supporte pas la balise vidéo.
         </video>
       </div>
