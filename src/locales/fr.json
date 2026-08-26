@@ -1,0 +1,192 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "disciplines": "Disciplines",
+    "pathologies": "Pathologies",
+    "process": "Déroulement",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "appointment": "Rendez-vous",
+    "book_appointment": "Prendre Rendez-vous",
+    "call_office": "Appeler le Cabinet",
+    "doctor_name": "Dr RHAZI YASSINE",
+    "doctor_title": "ACUPUNCTURE & AURICULOTHÉRAPIE"
+  },
+  "hero": {
+    "badge": "Médecine Énergétique & Holistique",
+    "title_start": "Rééquilibrez votre",
+    "title_highlight": "Énergie Vitale",
+    "description": "Découvrez une approche médicale alliant la sagesse ancestrale de l'acupuncture et la précision de l'auriculothérapie moderne pour soulager vos maux de façon naturelle.",
+    "cta_appointment": "Prendre Rendez-vous",
+    "cta_treatments": "Découvrir les Traitements",
+    "scroll_down": "Découvrir"
+  },
+  "about": {
+    "badge": "À Propos du Praticien",
+    "name": "Dr RHAZI YASSINE",
+    "p1": "Spécialisé en <strong>Acupuncture</strong> et <strong>Auriculothérapie</strong>, le Dr RHAZI YASSINE a consacré sa carrière à comprendre et traiter la douleur sous toutes ses formes.",
+    "p2": "Sa philosophie repose sur une vision intégrative de la santé : chaque symptôme est le langage d'un déséquilibre plus profond. En agissant sur les points stratégiques du corps et de l'oreille, il vise non seulement à soulager la douleur immédiate, mais aussi à restaurer l'harmonie globale du patient.",
+    "exp_years": "Années",
+    "exp_text": "d'expérience",
+    "features": {
+      "f1_title": "Expertise Médicale",
+      "f1_desc": "Praticien diplômé associant les connaissances de la médecine moderne à la sagesse des traditions millénaires.",
+      "f2_title": "Approche Holistique",
+      "f2_desc": "Traitement de l'individu dans sa globalité physique et émotionnelle pour des résultats durables.",
+      "f3_title": "Pratique Sécurisée",
+      "f3_desc": "Utilisation de matériel stérile à usage unique dans le strict respect des normes d'hygiène."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Nous restons joignables, 24h/24.",
+    "desc": "Quatre canaux pour répondre à chaque situation — de l'urgence médicale à la simple question administrative.",
+    "ch1_title": "Appel direct",
+    "ch1_desc": "+33781861316",
+    "ch1_btn": "Appeler",
+    "ch2_title": "WhatsApp",
+    "ch2_desc": "Réponse sous 15 minutes",
+    "ch2_btn": "Ouvrir WhatsApp",
+    "ch3_title": "Email",
+    "ch3_desc": "info@cliniqueachark.ma",
+    "ch3_btn": "Écrire",
+    "ch4_title": "Adresse",
+    "ch4_desc": "6 Rue Saad Zaghloul, Oujda 60000",
+    "ch4_btn": "Itinéraire",
+    "form_title": "Formulaire WhatsApp",
+    "form_name": "Nom complet",
+    "form_name_ph": "Jean Dupont",
+    "form_phone": "Téléphone",
+    "form_phone_ph": "06 12 34 56 78",
+    "form_subject": "Motif de consultation",
+    "form_subject_ph": "Sélectionnez un motif...",
+    "form_sub_douleur": "Douleurs (Dos, Articulations...)",
+    "form_sub_stress": "Stress, Anxiété, Sommeil",
+    "form_sub_addiction": "Sevrage tabagique / Addictions",
+    "form_sub_autre": "Autre motif",
+    "form_message": "Message (Optionnel)",
+    "form_message_ph": "Précisez votre demande...",
+    "form_submit": "Envoyer via WhatsApp",
+    "whatsapp_intro": "Bonjour, je vous contacte via votre site web."
+  },
+  "footer": {
+    "desc": "Expert en Acupuncture et Auriculothérapie. Une approche médicale douce, naturelle et personnalisée pour retrouver équilibre et santé.",
+    "nav_title": "Navigation",
+    "nav_home": "Accueil",
+    "nav_about": "À Propos",
+    "nav_disciplines": "Disciplines",
+    "nav_pathologies": "Pathologies traitées",
+    "nav_process": "Déroulement",
+    "disc_title": "Disciplines",
+    "disc_1": "Acupuncture Traditionnelle",
+    "disc_2": "Auriculothérapie",
+    "disc_3": "Bilan Énergétique",
+    "disc_4": "Gestion de la Douleur",
+    "legal_title": "Légal",
+    "legal_1": "Mentions Légales",
+    "legal_2": "Politique de Confidentialité",
+    "copyright": "Dr RHAZI YASSINE. Tous droits réservés."
+  },
+  "disciplines": {
+    "badge": "Nos Disciplines",
+    "title": "L'Alliance de la Tradition et de la Modernité",
+    "desc": "Deux approches complémentaires et puissantes pour stimuler les capacités d'auto-guérison de votre corps de manière naturelle et sécurisée.",
+    "acu_title": "Acupuncture Traditionnelle",
+    "acu_desc": "L'acupuncture est une branche fondamentale de la Médecine Traditionnelle Chinoise. Elle repose sur la stimulation de points spécifiques situés le long des méridiens (canaux d'énergie) à l'aide de très fines aiguilles. Cette pratique vise à restaurer la circulation fluide du \"Qi\" (l'énergie vitale) pour dissiper les blocages responsables de vos douleurs et troubles.",
+    "acu_li1": "Rééquilibrage énergétique global",
+    "acu_li2": "Action anti-inflammatoire et antalgique",
+    "acu_li3": "Innocuité totale (aiguilles stériles à usage unique)",
+    "auri_title": "Auriculothérapie",
+    "auri_desc": "Aussi appelée acupuncture auriculaire, cette technique reconnue par l'OMS utilise le pavillon de l'oreille comme une cartographie réflexe du corps humain (comparable à la réflexologie plantaire). En stimulant des zones précises de l'oreille (par massage, fines aiguilles ou graines), nous envoyons un signal direct au système nerveux central pour corriger les dysfonctionnements.",
+    "auri_li1": "Action rapide sur le système nerveux",
+    "auri_li2": "Efficacité prouvée sur les douleurs aiguës et chroniques",
+    "auri_li3": "Excellent support pour les troubles psycho-émotionnels"
+  },
+  "pathologies": {
+    "badge": "Domaines d'Intervention",
+    "title": "Ce que nous pouvons traiter",
+    "desc": "Découvrez comment l'Acupuncture et l'Auriculothérapie peuvent apporter des solutions naturelles à vos pathologies spécifiques.",
+    "cta_text": "Vous souffrez de l'un de ces troubles ? Un diagnostic personnalisé est nécessaire pour définir le traitement adapté.",
+    "cta_btn": "Consulter le Docteur",
+    "cats": {
+      "osteo": {
+        "label": "Douleurs Ostéo-articulaires",
+        "items": [
+          { "name": "Lombalgies & Sciatiques", "desc": "Soulagement profond des inflammations nerveuses et tensions musculaires du bas du dos." },
+          { "name": "Cervicalgies & Torticolis", "desc": "Relâchement des contractures de la nuque et des trapèzes." },
+          { "name": "Tendinites", "desc": "Action ciblée sur l'inflammation des tendons (épaule, coude, poignet)." },
+          { "name": "Arthrose", "desc": "Amélioration de la mobilité articulaire et diminution de la douleur chronique." }
+        ]
+      },
+      "neuro": {
+        "label": "Neurologie & Céphalées",
+        "items": [
+          { "name": "Migraines", "desc": "Espacement des crises et diminution de leur intensité par régulation vasculaire." },
+          { "name": "Névralgies d'Arnold", "desc": "Décompression des nerfs crâniens et apaisement fulgurant de la douleur." },
+          { "name": "Céphalées de tension", "desc": "Détente globale du crâne et prévention des maux de tête liés au stress." }
+        ]
+      },
+      "psycho": {
+        "label": "Stress & Émotions",
+        "items": [
+          { "name": "Anxiété & Stress", "desc": "Régulation du système nerveux autonome pour retrouver le calme intérieur." },
+          { "name": "Insomnie", "desc": "Amélioration de la qualité du sommeil et facilitation de l'endormissement." },
+          { "name": "Burn-out", "desc": "Recharge de l'énergie vitale (Qi) épuisée par le surmenage." },
+          { "name": "Gestion des émotions", "desc": "Stabilisation de l'humeur et libération des blocages émotionnels." }
+        ]
+      },
+      "metabo": {
+        "label": "Addictions & Métabolisme",
+        "items": [
+          { "name": "Sevrage tabagique", "desc": "Protocole auriculaire spécifique pour couper l'envie et limiter l'irritabilité." },
+          { "name": "Perte de poids", "desc": "Régulation de l'appétit et stimulation des fonctions d'élimination." },
+          { "name": "Troubles compulsifs", "desc": "Diminution des fringales et du besoin de compensation." }
+        ]
+      },
+      "digesto": {
+        "label": "Troubles Fonctionnels",
+        "items": [
+          { "name": "Syndrome du Côlon Irritable", "desc": "Régulation du transit et apaisement des spasmes intestinaux." },
+          { "name": "Gastrites & Nausées", "desc": "Harmonisation de la fonction gastrique et soulagement de l'acidité." },
+          { "name": "Douleurs gynécologiques", "desc": "Soulagement des règles douloureuses (dysménorrhée) et troubles du cycle." }
+        ]
+      }
+    }
+  },
+  "process": {
+    "badge": "Votre Parcours de Soin",
+    "title": "Déroulement d'une Séance",
+    "desc": "Chaque séance dure environ 45 minutes à 1 heure. Elle est entièrement personnalisée en fonction de vos besoins spécifiques du moment.",
+    "step_prefix": "ÉTAPE",
+    "s1_title": "Bilan Énergétique Initial",
+    "s1_desc": "Entretien approfondi, prise des pouls et observation de la langue pour établir un diagnostic précis selon la médecine traditionnelle.",
+    "s2_title": "Pose des Aiguilles / Graines",
+    "s2_desc": "Stimulation douce et quasi indolore des points d'acupuncture ou pose de graines auriculaires sur le pavillon de l'oreille.",
+    "s3_title": "Temps de Repos (20-30 min)",
+    "s3_desc": "Vous restez allongé(e) confortablement dans une ambiance calme et apaisante pendant que l'énergie circule et fait son travail.",
+    "s4_title": "Suivi & Recommandations",
+    "s4_desc": "Retrait des aiguilles, conseils personnalisés (hygiène de vie, alimentation) et planification de la prochaine séance si nécessaire.",
+    "faq_title": "Est-ce douloureux ?",
+    "faq_desc": "Non. Les aiguilles utilisées sont extrêmement fines (de l'épaisseur d'un cheveu). Vous pouvez ressentir un léger picotement ou une sensation de lourdeur (signe que l'énergie est \"accrochée\"), mais cela n'est pas douloureux. L'expérience globale est très relaxante."
+  },
+  "gallery": {
+    "badge": "En Images",
+    "title": "L'Art de l'Acupuncture",
+    "desc": "Découvrez nos procédures et l'environnement apaisant dans lequel vous serez accueilli."
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que disent nos patients",
+    "desc": "Découvrez les retours d'expérience de patients ayant bénéficié de nos traitements pour diverses pathologies.",
+    "t1_name": "Sophie L.",
+    "t1_treatment": "Auriculothérapie pour insomnie",
+    "t1_text": "Après des mois de nuits blanches et de stress intense, trois séances avec le Dr Rhazi ont suffi pour que je retrouve un sommeil profond. L'approche est douce et les résultats sont impressionnants.",
+    "t2_name": "Marc D.",
+    "t2_treatment": "Acupuncture pour sciatique",
+    "t2_text": "Je souffrais d'une sciatique bloquante depuis des semaines. Dès la première séance d'acupuncture, j'ai ressenti un soulagement que les médicaments classiques n'avaient pas réussi à m'apporter. Merci Docteur !",
+    "t3_name": "Nadia B.",
+    "t3_treatment": "Gestion du stress & Migraines",
+    "t3_text": "Le Dr Rhazi prend vraiment le temps d'écouter. Il a compris que mes migraines étaient liées à mon stress au travail. Le traitement combiné a non seulement espacé mes crises, mais m'a aussi redonné beaucoup d'énergie."
+  }
+}
