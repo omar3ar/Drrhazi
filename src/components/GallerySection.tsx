@@ -28,17 +28,17 @@ const GallerySection: React.FC = () => {
   ];
 
   return (
-    <section id="galerie" className="py-24 bg-white relative">
+    <section id="galerie" className="py-24 bg-blanc relative">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-secondary font-semibold tracking-wider text-sm uppercase mb-3">
+          <h2 className="text-rose-titre font-semibold tracking-wider text-sm uppercase mb-3">
             {t('gallery.badge')}
           </h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-primary-dark mb-6">
+          <h3 className="text-3xl md:text-4xl font-bold text-bordeaux mb-6">
             {t('gallery.title')}
           </h3>
-          <p className="text-slate text-lg">
+          <p className="text-doux text-lg">
             {t('gallery.desc')}
           </p>
         </div>
@@ -53,7 +53,7 @@ const GallerySection: React.FC = () => {
               transition={{ duration: 0.5, delay: (index % 4) * 0.1 }}
               className="break-inside-avoid relative group overflow-hidden rounded-xl"
             >
-              <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
+              <div className="absolute inset-0 bg-bordeaux/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
               <img 
                 src={src} 
                 alt={`Procédure d'acupuncture ${index + 1}`} 

@@ -1,46 +1,63 @@
 @import "tailwindcss";
 
 @theme {
-  /* Bleu Nuit / Bleu Marine profond */
-  --color-primary: #1E3A5F;
-  --color-primary-dark: #0B192C;
-  
-  /* Écru / Gris très clair */
-  --color-bg-light: #FBF9F6;
-  
-  /* Gris ardoise / Anthracite */
-  --color-slate: #475569;
-  --color-anthracite: #334155;
+  /* Teintes principales */
+  --color-bordeaux: #420500;
+  --color-bordeaux-fonce: #6b2013;
+  --color-bordeaux-tres-fonce: #1a0200;
+  --color-rose: #d8a39d;
+  --color-rose-titre: #9a5a50;
 
-  /* Touches d'accentuation (Doré / Terracotta / Bordeaux) */
-  --color-secondary: #D4AF37; /* Doré */
-  --color-accent: #B85042; /* Terracotta */
-  --color-accent-hover: #963A2E;
-  
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-heading: 'Outfit', system-ui, sans-serif;
+  /* Neutres et arrière-plans */
+  --color-papier: #f9f7f0;
+  --color-sable: #f1ece2;
+  --color-creme: #f6efe9;
+  --color-blanc: #ffffff;
+  --color-ligne: rgba(66,5,0,0.10);
+
+  /* Couleurs du texte */
+  --color-texte: #2a1310;
+  --color-doux: #63504a;
+  --color-legende: #8a766f;
+  --color-rose-clair: #e8c4bd;
+
+  /* Polices de caractères */
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   body {
-    @apply font-sans bg-[var(--color-bg-light)] text-anthracite antialiased selection:bg-secondary/30 selection:text-primary-dark;
+    @apply font-sans bg-papier text-texte antialiased selection:bg-rose/30 selection:text-bordeaux;
+    overflow-x: hidden;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading tracking-tight text-primary-dark;
+    @apply font-serif text-bordeaux;
   }
   
-  p, span, li {
-    @apply text-slate;
+  em {
+    @apply text-rose-titre font-serif not-italic;
+  }
+  
+  .surtitre {
+    @apply text-rose-titre font-serif block;
   }
 }
 
 @layer utilities {
   .glass-card {
-    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-[0_8px_30px_rgb(0,0,0,0.04)] rounded-2xl;
+    @apply bg-white/80 backdrop-blur-md border border-ligne shadow-sm rounded-2xl;
+  }
+  .btn-primary {
+    @apply bg-bordeaux text-white hover:bg-bordeaux-fonce transition-colors px-6 py-2 rounded font-sans inline-block cursor-pointer;
+  }
+  .btn-secondary {
+    @apply bg-creme text-texte hover:bg-blanc transition-colors px-6 py-2 rounded border border-ligne font-sans inline-block cursor-pointer;
   }
 }

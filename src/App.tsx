@@ -20,7 +20,7 @@ function App() {
   }, [i18n.language]);
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
+    <div className="min-h-screen bg-papier flex flex-col font-sans overflow-x-hidden w-full relative">
       <Navbar />
       <main className="flex-grow">
         <HeroSection />

@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/90 backdrop-blur-md shadow-sm py-3'
+          ? 'bg-blanc/90 backdrop-blur-md shadow-sm py-3'
           : 'bg-transparent py-5'
       }`}
     >
@@ -50,10 +50,10 @@ const Navbar: React.FC = () => {
           <a href="#home" className="flex items-center gap-2 group">
             <img src="/images/logo.png" alt="Dr RHAZI YASSINE Logo" className="h-12 w-auto object-contain" />
             <div>
-              <h1 className={`font-heading font-bold text-lg leading-tight ${isScrolled ? 'text-primary-dark' : 'text-white'}`}>
+              <h1 className={`font-serif font-bold text-lg leading-tight ${isScrolled ? 'text-bordeaux' : 'text-blanc'}`}>
                 {t('nav.doctor_name')}
               </h1>
-              <p className={`text-xs tracking-wider ${isScrolled ? 'text-primary' : 'text-gray-200'}`}>
+              <p className={`text-xs tracking-wider ${isScrolled ? 'text-bordeaux' : 'text-gray-200'}`}>
                 {t('nav.doctor_title')}
               </p>
             </div>
@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
                   <a
                     href={link.href}
                     className={`text-sm font-medium hover:text-accent transition-colors ${
-                      isScrolled ? 'text-slate' : 'text-gray-100'
+                      isScrolled ? 'text-doux' : 'text-gray-100'
                     }`}
                   >
                     {link.name}
@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
             <button
               onClick={toggleLanguage}
               className={`flex items-center gap-1 font-medium transition-colors ${
-                isScrolled ? 'text-slate hover:text-accent' : 'text-gray-100 hover:text-white'
+                isScrolled ? 'text-doux hover:text-accent' : 'text-gray-100 hover:text-blanc'
               }`}
             >
               <Globe size={18} />
@@ -91,8 +91,8 @@ const Navbar: React.FC = () => {
               target="_blank" rel="noopener noreferrer"
               className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-medium transition-all transform hover:scale-105 ${
                 isScrolled
-                  ? 'bg-accent text-white hover:bg-accent-hover'
-                  : 'bg-white text-primary hover:bg-gray-100'
+                  ? 'bg-accent text-blanc hover:bg-accent-hover'
+                  : 'bg-blanc text-bordeaux hover:bg-sable'
               }`}
             >
               <Calendar size={18} />
@@ -105,19 +105,19 @@ const Navbar: React.FC = () => {
             <button
               onClick={toggleLanguage}
               className={`font-medium ${
-                isScrolled ? 'text-anthracite' : 'text-white'
+                isScrolled ? 'text-texte' : 'text-blanc'
               }`}
             >
               {i18n.language === 'fr' ? 'AR' : 'FR'}
             </button>
             <button
-              className="text-anthracite"
+              className="text-texte"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
-                <X size={28} className={isScrolled ? 'text-primary-dark' : 'text-white'} />
+                <X size={28} className={isScrolled ? 'text-bordeaux' : 'text-blanc'} />
               ) : (
-                <Menu size={28} className={isScrolled ? 'text-primary-dark' : 'text-white'} />
+                <Menu size={28} className={isScrolled ? 'text-bordeaux' : 'text-blanc'} />
               )}
             </button>
           </div>
@@ -130,7 +130,7 @@ const Navbar: React.FC = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="absolute top-full left-0 w-full bg-white shadow-lg md:hidden"
+          className="absolute top-full left-0 w-full bg-blanc shadow-lg md:hidden"
         >
           <ul className="flex flex-col py-4 px-6 gap-4">
             {navLinks.map((link) => (
@@ -138,25 +138,25 @@ const Navbar: React.FC = () => {
                 <a
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="block text-lg font-medium text-anthracite hover:text-secondary"
+                  className="block text-lg font-medium text-texte hover:text-rose-titre"
                 >
                   {link.name}
                 </a>
               </li>
             ))}
-            <li className="pt-4 border-t border-gray-100 flex flex-col gap-3">
+            <li className="pt-4 border-t border-ligne flex flex-col gap-3">
               <a
                 href={`https://wa.me/33781861316?text=${whatsappMessage}`}
                 target="_blank" rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="flex items-center justify-center gap-2 bg-accent text-white px-5 py-3 rounded-xl font-medium"
+                className="flex items-center justify-center gap-2 bg-accent text-blanc px-5 py-3 rounded-xl font-medium"
               >
                 <Calendar size={20} />
                 {t('nav.book_appointment')}
               </a>
               <a
                 href="tel:+33781861316"
-                className="flex items-center justify-center gap-2 bg-transparent text-primary-dark px-5 py-3 rounded-xl font-medium border border-gray-200"
+                className="flex items-center justify-center gap-2 bg-transparent text-bordeaux px-5 py-3 rounded-xl font-medium border border-ligne"
               >
                 <Phone size={20} />
                 {t('nav.call_office')}
