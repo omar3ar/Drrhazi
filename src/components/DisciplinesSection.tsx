@@ -9,7 +9,7 @@ const DisciplinesSection: React.FC = () => {
   return (
     <section id="disciplines" className="py-24 bg-transparent relative">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
-        
+
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-secondary font-semibold tracking-wider text-sm uppercase mb-3">
             {t('disciplines.badge')}
@@ -23,9 +23,9 @@ const DisciplinesSection: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16">
-          
+
           {/* Acupuncture Card */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -34,16 +34,16 @@ const DisciplinesSection: React.FC = () => {
           >
             <div className="h-64 relative overflow-hidden">
               <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
-              <img 
-                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=1000&auto=format&fit=crop" 
-                alt="Acupuncture Traditionnelle" 
+              <img
+                src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=1000&auto=format&fit=crop"
+                alt="Acupuncture Traditionnelle"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute top-6 rtl:right-6 rtl:left-auto left-6 z-20 w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-lg">
                 <Activity size={28} className="text-primary" />
               </div>
             </div>
-            
+
             <div className="p-8 lg:p-10">
               <h4 className="text-2xl font-bold text-primary-dark mb-4">{t('disciplines.acu_title')}</h4>
               <p className="text-slate mb-6 line-clamp-4">
@@ -67,7 +67,7 @@ const DisciplinesSection: React.FC = () => {
           </motion.div>
 
           {/* Auriculothérapie Card */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -76,16 +76,16 @@ const DisciplinesSection: React.FC = () => {
           >
             <div className="h-64 relative overflow-hidden">
               <div className="absolute inset-0 bg-secondary/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
-              <img 
-                src="https://images.unsplash.com/photo-1620393240837-77510702be96?q=80&w=1000&auto=format&fit=crop" 
-                alt="Auriculothérapie" 
+              <img
+                src="/images/acu_proc_8_1787756453089.png"
+                alt="Auriculothérapie"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute top-6 rtl:right-6 rtl:left-auto left-6 z-20 w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-lg">
                 <Ear size={28} className="text-secondary" />
               </div>
             </div>
-            
+
             <div className="p-8 lg:p-10">
               <h4 className="text-2xl font-bold text-primary-dark mb-4">{t('disciplines.auri_title')}</h4>
               <p className="text-slate mb-6 line-clamp-4">
